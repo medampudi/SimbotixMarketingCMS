@@ -1,0 +1,17 @@
+version: 1.0
+env:
+  variables:
+    key: "branch"
+
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - if [ "${AWS_BRANCH}" = "master" ]; then env.branch = "master"; fi
+        - if [ "${AWS_BRANCH}" = "develop" ]; then env.branch = "develop"; fi
+        - npm install
+    build:
+      commands:
+        - gatsby build
+  artifacts:
+    baseDirectory: public
