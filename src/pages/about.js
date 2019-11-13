@@ -2,11 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const HomePage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h3>This is Home Page</h3>
+    <SEO title="About" />
+    <h3>This is About Page</h3>
   </Layout>
 )
 
-export default HomePage
+export default AboutPage
