@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import React from "react"
-import img from "../images/simbotix_logo.png"
+import img from "../images/bcg/homeBcg.jpeg"
 function HomeHeader({ img, children }) {
   return <IndexHeader img={img}>{children}</IndexHeader>
 }

@@ -74,7 +74,7 @@ const LinkWrapper = styled.ul`
     }
   }
   ${styles.transObject({ time: "0.5s" })};
-  height: ${props => (props.open ? "260px" : "0px")};
+  height: ${props => (props.open ? "220px" : "0px")};
   overflow: hidden;
   @media (min-width: 768px) {
     height: auto;
