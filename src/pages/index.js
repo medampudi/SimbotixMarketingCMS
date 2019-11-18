@@ -1,11 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { HomeHeader } from "../utils"
+import img from "../images/bcg/homeBcg.jpeg"
+import { HomeHeader, Banner } from "../utils"
 const HomePage = () => (
   <Layout>
     <SEO title="Home" />
-    <HomeHeader>This is The Home header</HomeHeader>
+    <HomeHeader img={img}>
+      <Banner
+        title="Product Development Agency"
+        subtitle="Talk to us to get your product up and running within no time."
+      ></Banner>
+    </HomeHeader>
   </Layout>
 )
 

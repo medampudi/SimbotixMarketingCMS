@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import { styles } from '../utils'
+import React from "react"
+import styled from "styled-components"
+import { styles } from "../utils"
 export const Banner = ({ title, subtitle, children }) => {
   return (
     <BannerWrapper>
@@ -13,21 +13,21 @@ export const Banner = ({ title, subtitle, children }) => {
 
 const BannerWrapper = styled.div`
   margin-bottom: 3rem;
+  font-weight: 700;
   text-align: center;
   h1 {
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
     text-transform: uppercase;
-    ${styles.letterSpacing({ spacing: '0.75rem' })};
+    ${styles.letterSpacing({ spacing: "0.75rem" })};
   }
   h3 {
     color: ${styles.colors.mainWhite};
-    ${styles.textSlanted};
-    ${styles.letterSpacing({ spacing: '0.15rem' })};
+    ${styles.letterSpacing({ spacing: "0.15rem" })};
     font-size: 1.5rem;
     text-transform: capitalize;
   }
 `
 Banner.defaultProps = {
-  title: 'default title',
+  title: "default title",
 }

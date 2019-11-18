@@ -45,12 +45,12 @@ export default class NavbarLinks extends Component {
 }
 
 const LinkWrapper = styled.ul`
-  margin: 10px;
+  margin: 0px;
   align-items: center;
   li {
     list-style-type: none;
     margin: 0px;
-    button {
+    :last-child {
       padding: 0.5rem 1rem;
       @media (min-width: 768px) {
         padding: 0.5rem 1rem 0.5rem 1rem;
