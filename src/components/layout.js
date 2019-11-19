@@ -6,8 +6,6 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import { createGlobalStyle } from "styled-components"
 import Navbar from "../components/globals/navbar"
 import { styles } from "../utils"
