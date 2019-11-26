@@ -8,9 +8,9 @@ const HomePage = () => (
     <SEO title="Home" />
     <HomeHeader img={img}>
       <Banner
-        title="Product Development Agency"
+        title="Mobile App Development Agency"
         subtitle="Talk to us to get your product up and running within no time."
-      ></Banner>
+      />
     </HomeHeader>
   </Layout>
 )
