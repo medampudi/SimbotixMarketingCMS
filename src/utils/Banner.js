@@ -14,7 +14,7 @@ export const Banner = ({ title, subtitle, children }) => {
 const BannerWrapper = styled.div`
   margin-bottom: 3rem;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   h1 {
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
@@ -22,11 +22,12 @@ const BannerWrapper = styled.div`
     ${styles.letterSpacing({ spacing: "0.75rem" })};
   }
   h3 {
-    color: ${styles.colors.mainWhite};
+    color: ${styles.colors.veryLightGray};
     ${styles.letterSpacing({ spacing: "0.15rem" })};
     font-size: 1.5rem;
     text-transform: capitalize;
   }
+  align-items: center;
 `
 Banner.defaultProps = {
   title: "default title",

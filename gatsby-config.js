@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Simbotix Private Limited`,
-    description: `Simbotix is an independent product development agency in the business of developing next-generation solutions to help enterprises to attract and serve more customers. We help customers build out their system from scratch and bring it to market quickly with the help of IaaS providers (AWS, GCP, and Azure) available on the market.`,
+    description: `Simbotix is an independent product development agency. We are in the business of developing next-generation solutions to help enterprises to attract and serve more customers. We help customers build out their system from scratch and bring it to market quickly with the help of IaaS(AWS, GCP, Azure) or Saas(Zoho, Zapier) platforms  and frameworks available on the market.`,
     author: `@simbotix`,
   },
   plugins: [

@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import NavbarHeader from "./NavbarHeader"
 import NavbarLinks from "./NavbarLinks"
-
+import { styles } from "../../../utils"
 import styled from "styled-components"
 
 export default class Navbar extends Component {
@@ -25,6 +25,7 @@ export default class Navbar extends Component {
 }
 const NavWrapper = styled.nav`
   justify-content: space-between;
+  background: ${styles.colors.mainWhite};
   @media (min-width: 768px) {
     display: flex;
     align-items: center;
