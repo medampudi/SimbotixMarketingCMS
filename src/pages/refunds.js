@@ -1,6 +1,6 @@
 import React from "react"
 import website from "../../website-config"
-import Layout from "../components/Layout"
+import Layout from "../components/SiteLayout"
 import { Box, Heading, Paragraph, Anchor } from "grommet"
 
 const refundsPage = () => (

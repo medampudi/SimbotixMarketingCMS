@@ -1,11 +1,11 @@
-import React from "react";
-import { customTheme } from "../theme";
-import SiteHeader from "../components/SiteHeader";
-import SiteFooter from "../components/SiteFooter";
-import SEO from "../components/SEO";
+import React from "react"
+import { customTheme } from "../theme"
+import SiteHeader from "../components/SiteHeader"
+import SiteFooter from "../components/SiteFooter"
+import SEO from "../components/SEO"
 //without this line, PixiPlugin and MotionPathPlugin may get dropped by your bundler (tree shaking)...
 // import { Icons } from "grommet-icons"
-import { Box, Heading, Grommet, Paragraph } from "grommet";
+import { Box, Grommet } from "grommet"
 
 const Layout = ({ seoTitle, children }) => (
   <Grommet theme={customTheme} full>
@@ -16,6 +16,6 @@ const Layout = ({ seoTitle, children }) => (
       <SiteFooter />
     </Box>
   </Grommet>
-);
+)
 
-export default Layout;
+export default Layout

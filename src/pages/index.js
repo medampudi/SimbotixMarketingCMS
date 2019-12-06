@@ -1,8 +1,8 @@
-import React from "react";
-import Layout from "../components/Layout";
-import DeepSkyBlue from "../components/blockMove";
-import website from "../../website-config";
-import { Box, Heading, Grommet, Paragraph } from "grommet";
+import React from "react"
+import Layout from "../components/SiteLayout"
+import DeepSkyBlue from "../components/blockMove"
+import website from "../../website-config"
+import { Box, Heading, Paragraph } from "grommet"
 
 const IndexPage = () => (
   <Layout seoTitle={`Home - ${website.titleAlt}`}>
@@ -21,6 +21,6 @@ const IndexPage = () => (
       <DeepSkyBlue />
     </Box>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage
