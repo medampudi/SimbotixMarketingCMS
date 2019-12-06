@@ -1,11 +1,11 @@
-import React from "react";
-import { Box, Heading, Image, Button, ResponsiveContext } from "grommet";
-import logo from "../images/logo_red.svg";
-import { Link } from "gatsby";
+import React from "react"
+import { Box, Heading, Image, Button, ResponsiveContext } from "grommet"
+import logo from "../images/logo_red.svg"
+import { Link } from "gatsby"
 
-import styled from "styled-components";
+import styled from "styled-components"
 const SiteHeader = () => {
-  const size = React.useContext(ResponsiveContext);
+  const size = React.useContext(ResponsiveContext)
   return (
     <Box
       fill
@@ -17,7 +17,7 @@ const SiteHeader = () => {
       align="top"
       responsive={true}
       background="background-strong"
-      style={{ position: "relative" }}
+      style={{ position: "sticky", top: 0, zIndex: 2 }}
     >
       <HeaderStyledLink align="center" to="/">
         {size !== "small" && (
@@ -89,8 +89,8 @@ const SiteHeader = () => {
         </Box>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
 const HeaderStyledLink = styled(Link)`
   text-decoration: none;
@@ -98,13 +98,13 @@ const HeaderStyledLink = styled(Link)`
   :visited {
     color: inherit;
   }
-`;
+`
 
 const HeaderStyledButton = styled(Button)`
   text-decoration: none;
   border-color: inherit;
   background-color: "text-strong";
   color: inherit;
-`;
+`
 
-export default SiteHeader;
+export default SiteHeader
