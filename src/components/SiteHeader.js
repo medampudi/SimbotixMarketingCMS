@@ -31,51 +31,56 @@ const SiteHeader = () => {
       </HeaderStyledLink>
 
       <Box direction="row" margin="none">
-        <Box
-          align="center"
-          justify="between"
-          pad={{ horizontal: "small", vertical: "none" }}
-          direction="row"
-        >
-          <HeaderStyledLink
-            weight="bold"
-            size="medium"
-            align="center"
-            to="/about"
-          >
-            About
-          </HeaderStyledLink>
-        </Box>
-        <Box
-          align="center"
-          justify="between"
-          pad={{ horizontal: "medium", vertical: "none" }}
-          direction="row"
-        >
-          <HeaderStyledLink
-            weight="bold"
-            size="medium"
-            align="center"
-            to="/contact"
-          >
-            Contact
-          </HeaderStyledLink>
-        </Box>
-        <Box
-          align="center"
-          justify="between"
-          pad={{ horizontal: "medium", vertical: "none" }}
-          direction="row"
-        >
-          <HeaderStyledLink
-            weight="bold"
-            size="medium"
-            align="center"
-            to="/blog"
-          >
-            Blog
-          </HeaderStyledLink>
-        </Box>
+        {size !== "small" && size !== "xsmall" && (
+          <>
+            <Box
+              align="center"
+              justify="between"
+              pad={{ horizontal: "small", vertical: "none" }}
+              direction="row"
+            >
+              <HeaderStyledLink
+                weight="bold"
+                size="medium"
+                align="center"
+                to="/about"
+              >
+                About
+              </HeaderStyledLink>
+            </Box>
+            <Box
+              align="center"
+              justify="between"
+              pad={{ horizontal: "medium", vertical: "none" }}
+              direction="row"
+            >
+              <HeaderStyledLink
+                weight="bold"
+                size="medium"
+                align="center"
+                to="/contact"
+              >
+                Contact
+              </HeaderStyledLink>
+            </Box>
+            <Box
+              align="center"
+              justify="between"
+              pad={{ horizontal: "medium", vertical: "none" }}
+              direction="row"
+            >
+              <HeaderStyledLink
+                weight="bold"
+                size="medium"
+                align="center"
+                to="/blog"
+              >
+                Blog
+              </HeaderStyledLink>
+            </Box>
+          </>
+        )}
+
         <Box
           align="center"
           pad={{ horizontal: "medium", vertical: "none" }}

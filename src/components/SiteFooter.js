@@ -1,45 +1,45 @@
-import React from "react";
-import { Box, Grid, Heading, ResponsiveContext, Text, Anchor } from "grommet";
-import { Link } from "gatsby";
-import { FaAws, FaWhatsapp } from "react-icons/fa";
-import styled from "styled-components";
+import React from "react"
+import { Box, Grid, Heading, ResponsiveContext, Text, Anchor } from "grommet"
+import { Link } from "gatsby"
+import { FaAws, FaWhatsapp } from "react-icons/fa"
+import styled from "styled-components"
 
 const columns = {
   small: ["auto"],
   medium: ["auto", "auto"],
   large: ["auto", "auto", "auto"],
-  xlarge: ["auto", "auto", "auto"]
-};
+  xlarge: ["auto", "auto", "auto"],
+}
 
 const rows = {
   small: ["auto", "auto", "auto"],
   medium: ["auto", "auto"],
   large: ["auto"],
-  xlarge: ["auto"]
-};
+  xlarge: ["auto"],
+}
 // Set the different areas you need for every size
 const fixedGridAreas = {
   small: [
     { name: "title", start: [0, 0], end: [0, 0] },
     { name: "internal", start: [0, 1], end: [0, 1] },
-    { name: "social", start: [0, 2], end: [0, 2] }
+    { name: "social", start: [0, 2], end: [0, 2] },
   ],
   medium: [
     { name: "title", start: [0, 0], end: [1, 0] },
     { name: "internal", start: [0, 1], end: [0, 1] },
-    { name: "social", start: [1, 1], end: [1, 1] }
+    { name: "social", start: [1, 1], end: [1, 1] },
   ],
   large: [
     { name: "title", start: [0, 0], end: [0, 0] },
     { name: "internal", start: [1, 0], end: [1, 0] },
-    { name: "social", start: [2, 0], end: [2, 0] }
+    { name: "social", start: [2, 0], end: [2, 0] },
   ],
   xlarge: [
     { name: "title", start: [0, 0], end: [0, 0] },
     { name: "internal", start: [1, 0], end: [1, 0] },
-    { name: "social", start: [2, 0], end: [2, 0] }
-  ]
-};
+    { name: "social", start: [2, 0], end: [2, 0] },
+  ],
+}
 
 const Responsive = ({
   children,
@@ -51,24 +51,24 @@ const Responsive = ({
   <ResponsiveContext.Consumer>
     {size => {
       // Take into consideration if not array is sent but a simple string
-      let columnsVal = columns;
+      let columnsVal = columns
       if (columns) {
         if (columns[size]) {
-          columnsVal = columns[size];
+          columnsVal = columns[size]
         }
       }
 
-      let rowsVal = rows;
+      let rowsVal = rows
       if (rows) {
         if (rows[size]) {
-          rowsVal = rows[size];
+          rowsVal = rows[size]
         }
       }
 
       // Also if areas is a simple array not an object of arrays for
       // different sizes
-      let areasVal = areas;
-      if (areas && !Array.isArray(areas)) areasVal = areas[size];
+      let areasVal = areas
+      if (areas && !Array.isArray(areas)) areasVal = areas[size]
 
       return (
         <Grid
@@ -79,13 +79,13 @@ const Responsive = ({
         >
           {children}
         </Grid>
-      );
+      )
     }}
   </ResponsiveContext.Consumer>
-);
+)
 
 const SiteFooter = () => {
-  const size = React.useContext(ResponsiveContext);
+  const size = React.useContext(ResponsiveContext)
   return (
     <Box
       fill
@@ -125,7 +125,7 @@ const SiteFooter = () => {
         </Box>
         <Box gridArea="internal" justify="center" align="center">
           <Heading level={2}>Company</Heading>
-          <LinkWrapper to="/">Home</LinkWrapper>
+          <LinkWrapper to="/blog">Blog</LinkWrapper>
           <LinkWrapper to="/about">About</LinkWrapper>
           <LinkWrapper to="/contact">Contact</LinkWrapper>
           <LinkWrapper to="/refunds">Cancellations</LinkWrapper>
@@ -153,8 +153,8 @@ const SiteFooter = () => {
         </Box>
       </Responsive>
     </Box>
-  );
-};
+  )
+}
 
 const LinkWrapper = styled(Link)`
   text-decoration: none;
@@ -164,7 +164,7 @@ const LinkWrapper = styled(Link)`
   :visited {
     color: inherit;
   }
-`;
+`
 const AnchorWrapper = styled(Anchor)`
   text-decoration: none;
   margin: 0.5rem;
@@ -172,5 +172,5 @@ const AnchorWrapper = styled(Anchor)`
   :visited {
     color: inherit;
   }
-`;
-export default SiteFooter;
+`
+export default SiteFooter
