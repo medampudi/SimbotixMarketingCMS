@@ -106,7 +106,7 @@ const SiteFooter = () => {
           align={
             size === "xsmall" || size === "small" || size === "medium"
               ? "center"
-              : "left"
+              : "start"
           }
         >
           <Heading level={2} margin={{ bottom: "medium" }} color="text-strong">

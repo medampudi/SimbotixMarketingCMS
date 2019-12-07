@@ -3,7 +3,7 @@ module.exports = {
   title: "Simbotix Private Limited Marketing Pages", // Navigation and Site Title
   titleAlt: "Simbotix", // Title for JSONLD
   description:
-    "The Marketing Pages for Simbotix and Its related pages, products are seperated by subdomain and function independently",
+    "We are in the business of crafting good mobile products & services with users at the heart",
   headline: "Writing and publishing content for Simbotix", // Headline for schema.org JSONLD
   url: "https://www.simbotix.com", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
@@ -23,8 +23,8 @@ module.exports = {
     id: "GTM-N2TGMRV",
     layer: "sxSite",
     auth: "OxBvLsVL1ZZgx1MAVkZHXQ",
-    preview: "env-2"
-  }
+    preview: "env-2",
+  },
 
   //   skipNavId: "reach-skip-nav" // ID for the "Skip to content" a11y feature
-};
+}

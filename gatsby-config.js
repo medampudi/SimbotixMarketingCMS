@@ -1,5 +1,5 @@
-const website = require("./website-config");
-const pathPrefix = website.pathPrefix === "/" ? "" : website.pathPrefix;
+const website = require("./website-config")
+const pathPrefix = website.pathPrefix === "/" ? "" : website.pathPrefix
 module.exports = {
   siteMetadata: {
     siteUrl: website.url + pathPrefix, // For gatsby-plugin-sitemap
@@ -13,7 +13,7 @@ module.exports = {
     ogLanguage: website.ogLanguage,
     author: website.author,
     twitter: website.twitter,
-    facebook: website.facebook
+    facebook: website.facebook,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -22,8 +22,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -37,9 +37,11 @@ module.exports = {
         background_color: website.backgroundColor,
         theme_color: website.themeColor,
         display: "standalone",
-        icon: website.favicon
-      }
+        icon: website.favicon,
+      },
     },
+    "gatsby-plugin-robots-txt",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -57,11 +59,11 @@ module.exports = {
         // Specify optional GTM environment details.
         gtmAuth: website.googleTagManager.auth,
         gtmPreview: website.googleTagManager.preview,
-        dataLayerName: website.googleTagManager.layer
-      }
-    }
+        dataLayerName: website.googleTagManager.layer,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ]
-};
+  ],
+}

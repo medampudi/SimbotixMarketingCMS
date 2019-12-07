@@ -15,9 +15,10 @@ const IndexPage = () => (
       elevation="small"
     >
       <Heading level={1}>
-        <strong>In bussiness to deliver Awesome customer experiences</strong>
+        <strong>
+          Crafting good mobile products & services with customers at heart
+        </strong>
       </Heading>
-      <Paragraph>Hello from a Grommet page!</Paragraph>
       <DeepSkyBlue />
     </Box>
   </Layout>

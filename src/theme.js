@@ -9,6 +9,8 @@ export const customTheme = deepMerge(grommet, {
   global: {
     colors: {
       brand: "#ff6666",
+      invisible: "rgba(0, 0, 0, 0.0)",
+      focus: "invisible",
       background: {
         dark: "#222222",
         light: "#FAFAFA",

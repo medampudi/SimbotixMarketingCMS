@@ -14,19 +14,19 @@ const SiteHeader = () => {
       elevation="medium"
       justify="between"
       direction="row"
-      align="top"
+      align="stretch"
       responsive={true}
       background="background-strong"
       style={{ position: "sticky", top: 0, zIndex: 2 }}
     >
       <HeaderStyledLink align="center" to="/">
-        {size !== "small" && (
+        {size !== "small" && size !== "xsmall" && (
           <Heading level={2} margin="none" color="text-strong">
             Simbotix
           </Heading>
         )}
         {(size === "small" || size === "xsmall") && (
-          <Image width="40px" height="40px" src={logo} />
+          <Image width="40px" height="40px" src={logo} alt="Simbotix Logo" />
         )}
       </HeaderStyledLink>
 
@@ -86,11 +86,7 @@ const SiteHeader = () => {
           pad={{ horizontal: "medium", vertical: "none" }}
           direction="row"
         >
-          <HeaderStyledButton
-            primary
-            label={size === "small" ? "Free Consult." : "Free Consultation"}
-            href="/valuepdf"
-          />
+          <HeaderStyledButton label="Free Consultation" href="/valuepdf" />
         </Box>
       </Box>
     </Box>
