@@ -13,117 +13,305 @@ const privacyPage = () => (
       elevation="small"
     >
       <>
-        <Heading level={1}>Cancellation of Service </Heading>
-        <Heading level={3}>Cancellation(if applicable)</Heading>
+        <Heading level={1}>Privacy Policy </Heading>
 
         <Paragraph fill>
-          Cancellation can be processed in a case-by-case basis and are to be
-          done before the 30 day mark from the inception of the formal
-          engagement. On an exceptional case basis we could however process the
-          same for the entire duration of the service being rendered. No
-          cancellations are entertained once the service period is complete or
-          the engagement is deemed complete by both parties and all deliverables
-          have been given.
-        </Paragraph>
-        <Heading level={3}>Refunds (if applicable)</Heading>
-
-        <Paragraph fill>
-          Once your cancellation is received and inspected, we will send you an
-          email to notify you that we have received your returned item. We will
-          also notify you of the approval or rejection of your refund.
-        </Paragraph>
-        <Paragraph fill>
-          If you are approved, then your refund will be processed, and a credit
-          will automatically be applied to your credit card or original method
-          of payment, within a 10 days.
-        </Paragraph>
-        <Heading level={3}>Late or missing refunds (if applicable)</Heading>
-
-        <Paragraph fill>
-          If you haven’t received a refund yet, first check your bank account
-          again.
-        </Paragraph>
-        <Paragraph fill>
-          Then contact your credit card company, it may take some time before
-          your refund is officially posted.
-        </Paragraph>
-        <Paragraph fill>
-          Next contact your bank. There is often some processing time before a
-          refund is posted.
-        </Paragraph>
-        <Paragraph fill>
-          If you’ve done all of this and you still have not received your refund
-          yet, please contact us at contact@simbotix.com.
+          SIMBOTIX PRIVATE LIMITED understands that your privacy is important to
+          you. We are committed to protecting the privacy of your
+          personally-identifiable information as you use this website. This
+          Privacy Policy tells you how we protect and use information that we
+          gather from you. By using this website, you consent to the terms
+          described in the most recent version of this Privacy Policy. You
+          should also read our Terms of Use to understand the general rules
+          about your use of this website, and any additional terms that may
+          apply when you access particular services or materials on certain
+          areas of this website. “We,” “our” means SIMBOTIX PRIVATE LIMITED and
+          its affiliates. “You,” “your,” visitor,” or “user” means the
+          individual accessing this site.
         </Paragraph>
 
-        <Heading level={3}>Sale items (if applicable)</Heading>
+        <Heading level={3}>PERSONAL AND NON-PERSONAL INFORMATION</Heading>
 
         <Paragraph fill>
-          Only regular priced items may be refunded, unfortunately sale items
-          cannot be refunded.
-        </Paragraph>
-        <Paragraph fill>
-          We reserve the right at any time to modify or discontinue the Service
-          (or any part or content thereof) without notice at any time.
-        </Paragraph>
-        <Paragraph fill>
-          We shall not be liable to you or to any third-party for any
-          modification, price change, suspension or discontinuance of the
-          Service.
+          Our Privacy Policy identifies how we treat your personal and
+          non-personal information.
         </Paragraph>
 
-        <Heading level={3}>Exchanges (if applicable)</Heading>
+        <Heading level={3}>
+          WHAT IS NON-PERSONAL INFORMATION AND HOW IS IT COLLECTED AND USED?
+        </Heading>
 
         <Paragraph fill>
-          We only replace items if they are defective or damaged. If you need to
-          exchange it for the same item, send us an email at{" "}
+          Non personal information is information that cannot identify you. If
+          you visit this web site to read information, such as information about
+          one of our services, we may collect certain non-personal information
+          about you from your computer’s web browser. Because non-personal
+          information cannot identify you or be tied to you in any way, there
+          are no restrictions on the ways that we can use or share non-personal
+          information. What is personal information and how is it collected?
+          Personal information is information that identifies you as an
+          individual, such as your name, mailing address, e-mail address,
+          telephone number, and fax number. We may collect personal information
+          from you in a variety of ways: • When you send us an application or
+          other form • When you conduct a transaction with us, our affiliates,
+          or others • When we collect information about in you in support of a
+          transaction, such as credit card information • In some places on this
+          web site you have the opportunity to send us personal information
+          about yourself, to elect to receive particular information, to
+          purchase access to one of our products or services, or to participate
+          in an activity.
+        </Paragraph>
+
+        <Heading level={3}>
+          ARE COOKIES OR OTHER TECHNOLOGIES USED TO COLLECT PERSONAL
+          INFORMATION?
+        </Heading>
+
+        <Paragraph fill>
+          Yes, we may use cookies and related technologies, such as web beacons,
+          to collect information on our web site. A cookie is a text file that
+          is placed on your hard disk by a web page server. Cookies cannot be
+          used to run programs or deliver viruses to your computer. Cookies are
+          uniquely assigned to you, and can only be read by a web server in the
+          domain that issued the cookie to you. One of the primary purposes of
+          cookies is to provide a convenience feature to save you time. The
+          purpose of a cookie is to tell the Web server that you have returned
+          to a specific page. For example, if you register with us, a cookie
+          helps SIMBOTIX PRIVATE LIMITED to recall your specific information on
+          subsequent visits. This simplifies the process of recording your
+          personal information, such as billing addresses, shipping addresses,
+          and so on. When you return to the same SIMBOTIX PRIVATE LIMITED
+          website, the information you previously provided can be retrieved, so
+          you can easily use the features that you customized. A web beacon is a
+          small graphic image that allows the party that set the web beacon to
+          monitor and collect certain information about the viewer of the web
+          page, web-based document or e-mail message, such as the type of
+          browser requesting the web beacon, the IP address of the computer that
+          the web beacon is sent to and the time the web beacon was viewed. Web
+          beacons can be very small and invisible to the user, but, in general,
+          any electronic image viewed as part of a web page or e-mail, including
+          HTML based content, can act as a web beacon. We may use web beacons to
+          count visitors to the web pages on the web site or to monitor how our
+          users navigate the web site, and we may include web beacons in e-mail
+          messages in order to count how many messages sent were actually
+          opened, acted upon or forwarded.
+        </Paragraph>
+        <Paragraph fill>
+          Third party vendors also may use cookies on our web site. For
+          instance, we may contract with third parties who will use cookies on
+          our web site to track and analyze anonymous usage and volume
+          statistical information from our visitors and members. Such
+          information is shared externally only on an anonymous, aggregated
+          basis. These third parties use persistent cookies to help us to
+          improve the visitor experience, to manage our site content, and to
+          track visitor behaviour. We may also contract with a third party to
+          send e-mail to our registered [users/members].
+        </Paragraph>
+        <Paragraph fill>
+          To help measure and improve the effectiveness of our e-mail
+          communications, the third party sets cookies. All data collected by
+          this third party on behalf of SIMBOTIX PRIVATE LIMITED is used solely
+          by or on behalf of SIMBOTIX PRIVATE LIMITED and is shared externally
+          only on an anonymous, aggregated basis. From time to time we may allow
+          third parties to post advertisements on our web site, and those
+          third-party advertisements may include a cookie or web beacon served
+          by the third party. This Privacy Policy does not cover the use of
+          information collected from you by third party ad servers. We do not
+          control cookies in such third party ads, and you should check the
+          privacy policies of those advertisers and/or ad services to learn
+          about their use of cookies and other technology before linking to an
+          ad. We will not share your personal information with these companies,
+          but these companies may use information about your visits to this and
+          other web sites in order to provide advertisements on this site and
+          other sites about goods and services that may be of interest to you,
+          and they may share your personal information that you provide to them
+          with others.
+        </Paragraph>
+        <Paragraph fill>
+          You have the ability to accept or decline cookies. Most Web browsers
+          automatically accept cookies, but you can usually modify your browser
+          setting to decline cookies if you prefer. If you choose to decline
+          cookies, you may not be able to fully experience the interactive
+          features of the SIMBOTIX PRIVATE LIMITED websites you visit.
+        </Paragraph>
+
+        <Heading level={3}>
+          HOW DOES SIMBOTIX PRIVATE LIMITED USE PERSONAL INFORMATION?
+        </Heading>
+
+        <Paragraph fill>
+          SIMBOTIX PRIVATE LIMITED may keep and use personal information we
+          collect from or about you to provide you with access to this web site
+          or other products or services, to respond to your requests, to bill
+          you for products/services you purchased, and to provide ongoing
+          service and support, to contact you with information that might be of
+          interest to you, including information about products and services of
+          ours and of others, or ask for your opinion about our products or the
+          products of others, for record keeping and analytical purposes and to
+          research, develop and improve programs, products, services and
+          content.
+        </Paragraph>
+        <Paragraph fill>
+          Personal information collected online may be combined with information
+          you provide to us through other sources We may also remove your
+          personal identifiers (your name, email address, social security
+          number, etc). In this case, you would no longer be identified as a
+          single unique individual. Once we have de-identified information, it
+          is non-personal information and we may treat it like other
+          non-personal information. Finally, we may use your personal
+          information to protect our rights or property, or to protect someone’s
+          health, safety or welfare, and to comply with a law or regulation,
+          court order or other legal process.
+        </Paragraph>
+
+        <Heading level={3}>
+          DOES SIMBOTIX PRIVATE LIMITED SHARE PERSONAL INFORMATION WITH OTHERS?
+        </Heading>
+
+        <Paragraph fill>
+          We will not share your personal information collected from this web
+          site with an unrelated third party without your permission, except as
+          otherwise provided in this Privacy Policy. In the ordinary course of
+          business, we may share some personal information with companies that
+          we hire to perform services or functions on our behalf. In all cases
+          in which we share your personal information with a third party for the
+          purpose of providing a service to us, we will not authorize them to
+          keep, disclose or use your information with others except for the
+          purpose of providing the services we asked them to provide.
+        </Paragraph>
+        <Paragraph fill>
+          We will not sell, exchange or publish your personal information,
+          except in conjunction with a corporate sale, merger, dissolution, or
+          acquisition. For some sorts of transactions, in addition to our direct
+          collection of information, our third party service vendors (such as
+          credit card companies, clearinghouses and banks) who may provide such
+          services as credit, insurance, and escrow services may collect
+          personal information directly from you to assist you with your
+          transaction. We do not control how these third parties use such
+          information, but we do ask them to disclose how they use your personal
+          information before they collect it.
+        </Paragraph>
+        <Paragraph fill>
+          If you submit a review for a third party (person or business) using
+          our Facebook Fan Review Application, during the submission process we
+          ask your permission to gather your basic information (such as name and
+          email address) which we then share with the third party for whom you
+          are submitting the review. We may be legally compelled to release your
+          personal information in response to a court order, subpoena, search
+          warrant, law or regulation.
+        </Paragraph>
+        <Paragraph fill>
+          We may cooperate with law enforcement authorities in investigating and
+          prosecuting web site visitors who violate our rules or engage in
+          behavior, which is harmful to other visitors (or illegal). We may
+          disclose your personal information to third parties if we feel that
+          the disclosure is necessary to protect our rights or property, protect
+          someone’s health, safety or welfare, or to comply with a law or
+          regulation, court order or other legal process. As discussed in the
+          section on cookies and other technologies, from time to time we may
+          allow a third party to serve advertisements on this web site.
+        </Paragraph>
+        <Paragraph fill>
+          If you share information with the advertiser, including by clicking on
+          their ads, this Privacy Policy does not control the advertisers use of
+          your personal information, and you should check the privacy policies
+          of those advertisers and/or ad services to learn about their use of
+          cookies and other technology before linking to an ad.
+        </Paragraph>
+
+        <Heading level={3}>
+          HOW IS PERSONAL INFORMATION USED FOR COMMUNICATIONS?
+        </Heading>
+
+        <Paragraph fill>
+          We may contact you periodically by e-mail, mail or telephone to
+          provide information regarding programs, products, services and content
+          that may be of interest to you. In addition, some of the features on
+          this web site allow you to communicate with us using an online form.
+          If your communication requests a response from us, we may send you a
+          response via e-mail. The e-mail response or confirmation may include
+          your personal information. We cannot guarantee that our e-mails to you
+          will be secure from unauthorized interception.
+        </Paragraph>
+
+        <Heading level={3}>HOW IS PERSONAL INFORMATION SECURED?</Heading>
+
+        <Paragraph fill>
+          We have implemented generally accepted standards of technology and
+          operational security in order to protect personally-identifiable
+          information from loss, misuse, alteration, or destruction. Only
+          authorized personnel and third party vendors have access to your
+          personal information, and these employees and vendors are required to
+          treat this information as confidential. Despite these precautions, we
+          cannot guarantee that unauthorized persons will not obtain access to
+          your personal information.
+        </Paragraph>
+
+        <Heading level={3}>LINKS</Heading>
+
+        <Paragraph fill>
+          This site contains links to other sites that provide information that
+          we consider to be interesting. SIMBOTIX PRIVATE LIMITED is not
+          responsible for the privacy practices or the content of such web
+          sites.
+        </Paragraph>
+
+        <Heading level={3}>PUBLIC DISCUSSIONS</Heading>
+
+        <Paragraph fill>
+          This site may provide public discussions on various business valuation
+          topics. Please note that any information you post in these discussions
+          will become public, so please do not post sensitive information in the
+          public discussions. Whenever you publicly disclose information online,
+          that information could be collected and used by others. We are not
+          responsible for any action or policies of any third parties who
+          collect information that users disclose in any such forums on the web
+          site. SIMBOTIX PRIVATE LIMITED does not agree or disagree with
+          anything posted on the discussion board. Also remember that you must
+          comply with our other published policies regarding postings on our
+          public forums.
+        </Paragraph>
+
+        <Heading level={3}>
+          HOW CAN A USER ACCESS, CHANGE, AND/OR DELETE PERSONAL INFORMATION?
+        </Heading>
+
+        <Paragraph fill>
+          You may access, correct, update, and/or delete any
+          personally-identifiable information that you submit to the web site.
+          You may also unsubscribe from mailing lists or any registrations on
+          the web site. To do so, please either follow instructions on the page
+          of the web site on which you have provided such information or
+          subscribed or registered or contact us at{" "}
           <Anchor href="mailto:contact@simbotix.com">
             contact@simbotix.com
-          </Anchor>{" "}
-          and send your item to:
-          <strong>
-            <br /> Simbotix Private Limited,
-          </strong>
-          <br /> Hno - 7-1-212/a/70,
-          <br /> Shivbagh, Ameerpet,
-          <br /> Hyderabad, Telangana, India,
-          <br />
-          500016
+          </Anchor>
         </Paragraph>
-        <Heading level={3}>Gifts</Heading>
+
+        <Heading level={3}>CHILDREN’S PRIVACY</Heading>
 
         <Paragraph fill>
-          If the item was marked as a gift when purchased and shipped directly
-          to you, you’ll receive a gift credit for the value of your return.
-          Once the returned item is received, a gift certificate will be mailed
-          to you.
+          SIMBOTIX PRIVATE LIMITED will not intentionally collect any personal
+          information (such as a child’s name or email address) from children
+          under the age of 13. If you think that we have collected personal
+          information from a child under the age of 13, please contact us at{" "}
+          <Anchor href="mailto:contact@simbotix.com">
+            contact@simbotix.com
+          </Anchor>
         </Paragraph>
+
+        <Heading level={3}>CHANGES</Heading>
+
         <Paragraph fill>
-          If the item wasn’t marked as a gift when purchased, or the gift giver
-          had the order shipped to themselves to give to you later, we will send
-          a refund to the gift giver and he will find out about your return.
-        </Paragraph>
-        <Heading level={3}>Shipping</Heading>
-        <Paragraph fill>
-          To return your product, you should mail your product to:
-          <strong>
-            <br /> Simbotix Private Limited,
-          </strong>
-          <br /> Hno - 7-1-212/a/70,
-          <br /> Shivbagh, Ameerpet,
-          <br /> Hyderabad, Telangana, India,
-          <br />
-          500016
-        </Paragraph>
-        <Paragraph fill>
-          You will be responsible for paying for your own shipping costs for
-          returning your item. Shipping costs are non-refundable. If you receive
-          a refund, the cost of return shipping will be deducted from your
-          refund.
-        </Paragraph>
-        <Paragraph fill>
-          Depending on where you live, the time it may take for your exchanged
-          product to reach you, may vary.
+          SIMBOTIX PRIVATE LIMITED reserves the right to modify this statement
+          at any time. Any changes to this Privacy Policy will be listed in this
+          section, and if such changes are material, a notice will be included
+          on the homepage of the web site for a period of time. If you have any
+          questions about privacy at any websites operated by SIMBOTIX PRIVATE
+          LIMITED or about our website practices, please contact us at:{" "}
+          <Anchor href="mailto:contact@simbotix.com">
+            contact@simbotix.com
+          </Anchor>
         </Paragraph>
       </>
     </Box>

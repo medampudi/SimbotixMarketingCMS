@@ -16,6 +16,7 @@ const IndexPage = () => {
 
   return (
     <Layout seoTitle={`Home - ${website.titleAlt}`}>
+      
       <Box
         pad="medium"
         width="xlarge"
@@ -42,7 +43,7 @@ const IndexPage = () => {
           way or the other. just spare 15 minutes of your time to understand
           what it takes.
         </Text>
-        <Box pad={{ horizontal: "large", vertical: "xlarge" }}>
+        <Box pad={{ horizontal: "large", vertical: "large" }}>
           <Button
             primary
             type="button"
