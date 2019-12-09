@@ -1,27 +1,59 @@
 import React from "react"
 import Layout from "../components/SiteLayout"
-import DeepSkyBlue from "../components/blockMove"
 import website from "../../website-config"
-import { Box, Heading, Paragraph } from "grommet"
+import {
+  Box,
+  Heading,
+  Paragraph,
+  Text,
+  Button,
+  ResponsiveContext,
+} from "grommet"
 
-const IndexPage = () => (
-  <Layout seoTitle={`Home - ${website.titleAlt}`}>
-    <Box
-      pad="medium"
-      width="xlarge"
-      height="xlarge"
-      margin="medium"
-      background="background"
-      elevation="small"
-    >
-      <Heading level={1}>
-        <strong>
-          Crafting good mobile products & services with customers at heart
-        </strong>
-      </Heading>
-      <DeepSkyBlue />
-    </Box>
-  </Layout>
-)
+const IndexPage = () => {
+  const size = React.useContext(ResponsiveContext)
+  const smallScreen = size === "small" || size === "xsmall"
+
+  return (
+    <Layout seoTitle={`Home - ${website.titleAlt}`}>
+      <Box
+        pad="medium"
+        width="xlarge"
+        margin="medium"
+        background="background"
+        elevation="small"
+        align="center"
+        alignContent="center"
+      >
+        <Heading level={2} textAlign="center" alignContent="medium">
+          Hello, We are Simbotix.{" "}
+        </Heading>
+        <Heading level={1} textAlign="center" alignContent="medium">
+          We build good digital products & services.
+        </Heading>
+        <Text
+          size={smallScreen ? "medium" : "large"}
+          responsive
+          textAlign="center"
+          margin={smallScreen ? "medium" : "large"}
+        >
+          There are a number of questions that go into indentifying which
+          approach is right for you. So before you are hell bent of going one
+          way or the other. just spare 15 minutes of your time to understand
+          what it takes.
+        </Text>
+        <Box pad={{ horizontal: "large", vertical: "xlarge" }}>
+          <Button
+            primary
+            type="button"
+            color="text-strong"
+            label="Do you have 15 mins?"
+            href="/valuepdf"
+          />
+        </Box>
+      </Box>
+    </Layout>
+  )
+}
 
 export default IndexPage
