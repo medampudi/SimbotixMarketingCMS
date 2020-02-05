@@ -30,14 +30,16 @@ const privacyPage = () => (
           individual accessing this site.
         </Paragraph>
 
-        <Heading level={3}>PERSONAL AND NON-PERSONAL INFORMATION</Heading>
+        <Heading fill level={3}>
+          PERSONAL AND NON-PERSONAL INFORMATION
+        </Heading>
 
         <Paragraph fill>
           Our Privacy Policy identifies how we treat your personal and
           non-personal information.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           WHAT IS NON-PERSONAL INFORMATION AND HOW IS IT COLLECTED AND USED?
         </Heading>
 
@@ -62,7 +64,7 @@ const privacyPage = () => (
           in an activity.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           ARE COOKIES OR OTHER TECHNOLOGIES USED TO COLLECT PERSONAL
           INFORMATION?
         </Heading>
@@ -135,7 +137,7 @@ const privacyPage = () => (
           features of the SIMBOTIX PRIVATE LIMITED websites you visit.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           HOW DOES SIMBOTIX PRIVATE LIMITED USE PERSONAL INFORMATION?
         </Heading>
 
@@ -164,7 +166,7 @@ const privacyPage = () => (
           court order or other legal process.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           DOES SIMBOTIX PRIVATE LIMITED SHARE PERSONAL INFORMATION WITH OTHERS?
         </Heading>
 
@@ -219,7 +221,7 @@ const privacyPage = () => (
           cookies and other technology before linking to an ad.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           HOW IS PERSONAL INFORMATION USED FOR COMMUNICATIONS?
         </Heading>
 
@@ -234,7 +236,9 @@ const privacyPage = () => (
           will be secure from unauthorized interception.
         </Paragraph>
 
-        <Heading level={3}>HOW IS PERSONAL INFORMATION SECURED?</Heading>
+        <Heading fill level={3}>
+          HOW IS PERSONAL INFORMATION SECURED?
+        </Heading>
 
         <Paragraph fill>
           We have implemented generally accepted standards of technology and
@@ -247,7 +251,9 @@ const privacyPage = () => (
           your personal information.
         </Paragraph>
 
-        <Heading level={3}>LINKS</Heading>
+        <Heading fill level={3}>
+          LINKS
+        </Heading>
 
         <Paragraph fill>
           This site contains links to other sites that provide information that
@@ -256,7 +262,9 @@ const privacyPage = () => (
           sites.
         </Paragraph>
 
-        <Heading level={3}>PUBLIC DISCUSSIONS</Heading>
+        <Heading fill level={3}>
+          PUBLIC DISCUSSIONS
+        </Heading>
 
         <Paragraph fill>
           This site may provide public discussions on various business valuation
@@ -272,7 +280,7 @@ const privacyPage = () => (
           public forums.
         </Paragraph>
 
-        <Heading level={3}>
+        <Heading fill level={3}>
           HOW CAN A USER ACCESS, CHANGE, AND/OR DELETE PERSONAL INFORMATION?
         </Heading>
 
@@ -288,7 +296,9 @@ const privacyPage = () => (
           </Anchor>
         </Paragraph>
 
-        <Heading level={3}>CHILDREN’S PRIVACY</Heading>
+        <Heading fill level={3}>
+          CHILDREN’S PRIVACY
+        </Heading>
 
         <Paragraph fill>
           SIMBOTIX PRIVATE LIMITED will not intentionally collect any personal
@@ -300,7 +310,9 @@ const privacyPage = () => (
           </Anchor>
         </Paragraph>
 
-        <Heading level={3}>CHANGES</Heading>
+        <Heading fill level={3}>
+          CHANGES
+        </Heading>
 
         <Paragraph fill>
           SIMBOTIX PRIVATE LIMITED reserves the right to modify this statement

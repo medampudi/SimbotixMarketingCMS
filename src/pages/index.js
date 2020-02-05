@@ -16,13 +16,11 @@ const IndexPage = () => {
 
   return (
     <Layout seoTitle={`Home - ${website.titleAlt}`}>
-      
       <Box
         pad="medium"
         width="xlarge"
         margin="medium"
         background="background"
-        elevation="small"
         align="center"
         alignContent="center"
       >
@@ -30,7 +28,7 @@ const IndexPage = () => {
           Hello, We are Simbotix.{" "}
         </Heading>
         <Heading level={1} textAlign="center" alignContent="medium">
-          We build good digital products & services.
+          We supplement your business by serverless tech solutions.
         </Heading>
         <Text
           size={smallScreen ? "medium" : "large"}
@@ -48,7 +46,7 @@ const IndexPage = () => {
             primary
             type="button"
             color="text-strong"
-            label="Do you have 15 mins?"
+            label="Book a Free 15 mins"
             href="/valuepdf"
           />
         </Box>
